@@ -566,7 +566,6 @@ class _MarqueerState extends State<Marqueer> with WidgetsBindingObserver {
         controller: scrollController,
         scrollDirection: isVertical ? Axis.vertical : Axis.horizontal,
         semanticChildCount: widget.delegate.estimatedChildCount,
-        hitTestBehavior: widget.hitTestBehavior,
       ),
     );
   }
